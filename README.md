@@ -1342,6 +1342,9 @@ href="https://randomnerdtutorials.com/esp8266-ds18b20-temperature-sensor-web-ser
 <p class=MsoNormal><a
 href="https://circuits4you.com/2019/03/23/esp8266-bmp180-pressure-sensor-interface/">https://circuits4you.com/2019/03/23/esp8266-bmp180-pressure-sensor-interface/</a></p>
 
+<p class=MsoNormal><a
+href="https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/">https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/</a></p>
+
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
 
 <h2><span style='mso-fareast-font-family:"Times New Roman"'>Potrzebne
@@ -1636,8 +1639,17 @@ Bibliotekę .ZIP…<span style='mso-bidi-font-weight:bold'><o:p></o:p></span></b
 auto;text-indent:-18.0pt;mso-list:l0 level2 lfo4;tab-stops:list 72.0pt'><![if !supportLists]><span
 style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>7.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Jeśli
-czujnikiem ciśnienia jest BMP280 również należy zainstalować bibliotekę do
+czujnikiem ciśnienia jest <a>BMP280 również należy zainstalować bibliotekę ("adafruit bme280")</a> do
 obsługi tego czujnika.</p>
+
+<p class=MsoListParagraphCxSpLast align=center style='text-align:center'><span
+style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Obraz_x0020_20"
+ o:spid="_x0000_i1031" type="#_x0000_t75" alt="Install adafruit bme280 in Arduino IDE"
+ style='width:786pt;height:443pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="README.md.fld/image020.png" o:href="https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/install-bme280.png?w=786&ssl=1?w=750&ssl=1?resize=786%2C443&amp;ssl=1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=786 height=443
+src="README.md.fld/image020.png"
+alt="Install adafruit bme280 in Arduino IDE" v:shapes="Obraz_x0020_20"><![endif]></span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;mso-add-space:auto'><o:p>&nbsp;</o:p></p>
 
@@ -1718,7 +1730,7 @@ style='color:#C00000;background:silver;mso-highlight:silver'>Jeśli pojawiły si
 błędy kompilacji (z kroku 5), to najprawdopodobniej nie wszystkie wymagane
 biblioteki zostały zainstalowane. Należy się upewnić czy jakaś inna biblioteka
 nie powoduje konfliktów. Jeśli samodzielnie edytowałeś szkic to może pojawił
-się błąd składni. <span class=SpellE>Nojczęściej</span> zapominamy o „;” na
+się błąd składni. <span class=SpellE>Najczęściej</span> zapominamy o „;” na
 końcu linii bądź polecenia.</span><span style='color:#C00000'><o:p></o:p></span></b></p>
 
 <p class=MsoListParagraph style='margin-left:72.0pt;mso-add-space:auto'><b

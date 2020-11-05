@@ -52,30 +52,30 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ## Instalujemy potrzebne biblioteki:
 
-#### DHT:
+* #### DHT:
 W programie Arduino IDE klikamy kolejno **Szkic > Dołącz bibliotekę &gt; Zarządzaj bibliotekami…**. W oknie wyszukiwania wpisujemy ___DHT___
 
 ![install DHT lib](/README.md.fld/image012.png)
 
-#### Podobnie instalujemy bibliotekę: "Adafruit Sensor”
+* #### Podobnie instalujemy bibliotekę: "Adafruit Sensor”
 
-#### Podobnie instalujemy bibliotekę: ___onewire___ zwracając uwagę na właściwe pochodzenie, gdyż w zasobach jest dużo bibliotek o podobnych nazwach i przeznaczeniu
+* #### Podobnie instalujemy bibliotekę: ___onewire___ zwracając uwagę na właściwe pochodzenie, gdyż w zasobach jest dużo bibliotek o podobnych nazwach i przeznaczeniu
 
 ![install onewire lib](/README.md.fld/image013.png)
 
-#### Oraz DS18B20:
+* #### Oraz DS18B20:
 
 ![install DS18B20 lib](/README.md.fld/image014.png)
 
-#### Kolejna biblioteka konieczna do utworzenia miniserwera www na ESP8266: "ESPAsyncWebServer" do zainstalowania. 
+* #### Kolejna biblioteka konieczna do utworzenia miniserwera www na ESP8266: "ESPAsyncWebServer" do zainstalowania. 
 
 [Pobieramy ją z tej lokalizacji.](https://github.com/me-no-dev/ESPAsyncWebServer/archive/master.zip)
 
 Pobrany plik należy rozpakować i zmienić nazwę na "ESPAsyncWebServer". Folder ten przenieść do **Moje dokumenty &gt; Arduino &gt; libraries**
 
-#### Powyższe kroki powtarzamy z biblioteką [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP/archive/master.zip)
+* #### Powyższe kroki powtarzamy z biblioteką [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP/archive/master.zip)
 
-#### Kolejna biblioteka dla [barometru](https://circuits4you.com/wp-content/uploads/2019/03/BMP180_Breakout_Arduino_Library-master.zip) BMP180 do pobrania.
+* #### Kolejna biblioteka dla [barometru](https://circuits4you.com/wp-content/uploads/2019/03/BMP180_Breakout_Arduino_Library-master.zip) BMP180 do pobrania.
 
 Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz bibliotekę &gt; Dodaj Bibliotekę .ZIP…**
 
@@ -99,6 +99,6 @@ Otwieramy wybrany plik w Arduino IDE: ![openfile](/README.md.fld/image016.png)
 
 1. Jeśli wszystko poszło dobrze można wgrać program: ![openfile](/README.md.fld/image019.png) 
 
-> Jeśli pojawiły się błędy kompilacji (z kroku 5), to najprawdopodobniej nie wszystkie wymagane biblioteki zostały zainstalowane. Należy się upewnić czy jakaś inna bibliotekanie powoduje konfliktów. Jeśli samodzielnie edytowałeś szkic to może pojawił się błąd składni. Najczęściej zapominamy o ___„;”___ na końcu linii bądź polecenia.
+> Jeśli pojawiły się błędy kompilacji (z kroku 5), to najprawdopodobniej nie wszystkie wymagane biblioteki zostały zainstalowane. Należy się upewnić czy jakaś inna bibliotekanie powoduje konfliktów. Jeśli samodzielnie edytowałeś szkic to może pojawił się błąd składni. Najczęściej zapominamy o *___„;”___* na końcu linii bądź polecenia.
 
 <font color:red >POWODZENIA!!!</font>

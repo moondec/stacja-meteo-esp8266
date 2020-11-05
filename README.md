@@ -75,6 +75,8 @@ W programie Arduino IDE klikamy kolejno **Szkic > Dołącz bibliotekę &gt; Zarz
 
 * #### Podobnie instalujemy bibliotekę: "Adafruit Unified Sensor”
 
+![install "Adafruit Unified Sensor" lib](/README.md.fld/image021.png)
+
 * #### Podobnie instalujemy bibliotekę: ___onewire___ zwracając uwagę na właściwe pochodzenie, gdyż w zasobach jest dużo bibliotek o podobnych nazwach i przeznaczeniu
 
 ![install onewire lib](/README.md.fld/image013.png)

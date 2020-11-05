@@ -73,7 +73,7 @@ W programie Arduino IDE klikamy kolejno **Szkic > Dołącz bibliotekę &gt; Zarz
 
 ![install DHT lib](/README.md.fld/image012.png)
 
-* #### Podobnie instalujemy bibliotekę: "Adafruit Sensor”
+* #### Podobnie instalujemy bibliotekę: "Adafruit Unified Sensor”
 
 * #### Podobnie instalujemy bibliotekę: ___onewire___ zwracając uwagę na właściwe pochodzenie, gdyż w zasobach jest dużo bibliotek o podobnych nazwach i przeznaczeniu
 
@@ -111,6 +111,12 @@ Otwieramy wybrany plik w Arduino IDE: ![openfile](/README.md.fld/image016.png)
 
 1. Zmieniamy ustawienia sieci Wi-Fi na własne
 ![openfile](/README.md.fld/image017.png) 
+
+```C++
+// Zastąp danymi własnej sieci wi-fi
+const char* ssid = "NAZWA_SIECI_WIFI";
+const char* password = "HASŁO_SIECI_WIFI";
+```
 
 1. Sprawdzamy czy nie ma błędów w składni: ![openfile](/README.md.fld/image018.png) 
 

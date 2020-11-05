@@ -7,23 +7,25 @@ https://circuits4you.com/2019/03/23/esp8266-bmp180-pressure-sensor-interface/
 https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/
 ## Potrzebne materiały
 
-1. Płytka oparta na ESP8266, np. ___NodeMCU___, ___WemosD1 mini___,
-<img src="/README.md.fld/image001.png" width="600"> 
+* Płytka oparta na ESP8266, np. ___NodeMCU___, ___WemosD1 mini___, 
+<img src="/README.md.fld/image001.png" width="600"><img src="/README.md.fld/image002.jpg" width="600"> 
 
-1. Termohigrometr ___DHT11___ lub ___DHT22___,
+* Termohigrometr ___DHT11___ lub ___DHT22___, 
 <img src="/README.md.fld/image003.jpg" width="600"> 
 
-1. Termometr Dallas ___DS18B20___,
-![DS18b20](/README.md.fld/image004.jpg)![DS18b20](/README.md.fld/image005.jpg) 
+* Termometr Dallas ___DS18B20___, 
+<img src="/README.md.fld/image004.jpg"><img src="/README.md.fld/image005.jpg"> 
 
-1. Barometr ___BMP180___ lub ___BMP280___,
-![BME180](/README.md.fld/image006.jpg)![BME280](/README.md.fld/image007.jpg) 
+* Barometr ___BMP180___ lub ___BMP280___, 
+<img src="/README.md.fld/image006.jpg"><img src="/README.md.fld/image007.jpg"> 
 
-1. Płytka stykowa,![Plytka](/README.md.fld/image008.jpg) 
+* Płytka stykowa, 
+<img src="/README.md.fld/image008.jpg"> 
 
-1. Kabelki,![Kabelki](/README.md.fld/image010.jpg) 
+* Kabelki, 
+<img src="/README.md.fld/image010.jpg"> 
 
-1. Komputer i kabel USB z wtyczką mikro-B (stare do ładowania smartfona) 
+* Komputer i kabel USB z wtyczką mikro-B (stare do ładowania smartfona) 
 
 ## Schemat połączeń
 

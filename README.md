@@ -1,10 +1,10 @@
 # Projekt prostej stacji meteorologicznej na Noc Naukowców 2020.
-> Projekt ten jest kompilacją dostępnych w Internecie poradników. Oto linki:
-
+> ***Projekt ten jest kompilacją dostępnych w Internecie poradników. Oto linki:***
 > * https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/ 
 > * https://randomnerdtutorials.com/esp8266-ds18b20-temperature-sensor-web-server-with-arduino-ide/ 
 > * https://circuits4you.com/2019/03/23/esp8266-bmp180-pressure-sensor-interface/ 
-> * https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/ 
+> * https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/
+
 ## Potrzebne materiały
 
 * Płytka oparta na ESP8266, np. ___NodeMCU___, ___WemosD1 mini___, 

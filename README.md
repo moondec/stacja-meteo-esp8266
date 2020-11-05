@@ -5,6 +5,10 @@
 1. [ Instalujemy potrzebne biblioteki ](#biblioteki)
 1. [ Wgrywanie szkicu do ESP8266 ](#Wgrywanie)
 
+> Barcode do tego repozytorium:
+
+![barcode](/README.md.fld/barcode.gif)
+
 # Projekt prostej stacji meteorologicznej na Noc Naukowców 2020.
 > ***Projekt ten jest kompilacją dostępnych w Internecie poradników. Oto linki:***
 > * https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/ 

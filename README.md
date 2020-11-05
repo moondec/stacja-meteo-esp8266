@@ -1,3 +1,10 @@
+1. [ Potrzebne materiały ](#Potrzebne)
+1. [ Schemat połączeń ](#Schemat)
+1. [ Instalacja środowiska Arduino IDE ](#Arduino)
+1. [ Instalujemy dodatek do obsługi ESP8266 ](#ESP8266)
+1. [ Instalujemy potrzebne biblioteki ](#biblioteki)
+1. [ Wgrywanie szkicu do ESP8266 ](#Wgrywanie)
+
 # Projekt prostej stacji meteorologicznej na Noc Naukowców 2020.
 > ***Projekt ten jest kompilacją dostępnych w Internecie poradników. Oto linki:***
 > * https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/ 
@@ -5,6 +12,7 @@
 > * https://circuits4you.com/2019/03/23/esp8266-bmp180-pressure-sensor-interface/ 
 > * https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/
 
+<a name="Potrzebne"></a>
 ## Potrzebne materiały
 
 * Płytka oparta na ESP8266, np. ___NodeMCU___, ___WemosD1 mini___, 
@@ -29,14 +37,17 @@
 
 * Komputer i kabel USB z wtyczką mikro-B (stare do ładowania smartfona) 
 
+<a name="Schemat"></a>
 ## Schemat połączeń
 
 ![Schemat](/README.md.fld/image011.png)
 
+<a name="Arduino"></a>
 ## Instalacja środowiska Arduino IDE
 
 [Pobieramy Arduino IDE z tej lokalizacji](https://www.arduino.cc/en/software)
 
+<a name="ESP8266"></a>
 ## Instalujemy dodatek do obsługi ESP8266 w/g tej instrukcji:
 
 https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
@@ -50,6 +61,7 @@ Dla Windows **Plik > Preferencje > Dodatkowe adresy URL do menadżera płytek**
 i wklejamy: 
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
+<a name="biblioteki"></a>
 ## Instalujemy potrzebne biblioteki:
 
 * #### DHT:
@@ -83,9 +95,10 @@ Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz 
 
 ![install DS18B20 lib](/README.md.fld/image020.png)
 
-# Wgrywanie szkicu do ESP8266
+<a name="Wgrywanie"></a>
+## Wgrywanie szkicu do ESP8266
 
-1. Gotowy szkic należy pobrać z [githuba] **stacjaMeteo_bmp180.ino** lub **stacjaMeteo_bmp280.ino** 
+1. Gotowy szkic należy pobrać z ___githuba___ **stacjaMeteo_bmp180.ino** lub **stacjaMeteo_bmp280.ino** 
 
 1. Pobrany plik wgrywamy do katalogu **Dokumenty &gt; Arduino &gt; stacjaMeteo_bmp180** lub **Dokumenty &gt; Arduino &gt; stacjaMeteo_bmp280**
 Otwieramy wybrany plik w Arduino IDE: ![openfile](/README.md.fld/image016.png) 

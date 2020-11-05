@@ -73,7 +73,7 @@ W programie Arduino IDE klikamy kolejno **Szkic > Dołącz bibliotekę &gt; Zarz
 
 ![install DHT lib](/README.md.fld/image012.png)
 
-* #### Podobnie instalujemy bibliotekę: "Adafruit Sensor”
+* #### Podobnie instalujemy bibliotekę: "Adafruit Unified Sensor”
 
 * #### Podobnie instalujemy bibliotekę: ___onewire___ zwracając uwagę na właściwe pochodzenie, gdyż w zasobach jest dużo bibliotek o podobnych nazwach i przeznaczeniu
 

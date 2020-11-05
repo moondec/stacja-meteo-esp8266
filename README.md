@@ -14,9 +14,11 @@ https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/
 <img src="/README.md.fld/image003.jpg" width="600"> 
 
 * Termometr Dallas ___DS18B20___, 
+
 <img src="/README.md.fld/image004.jpg"><img src="/README.md.fld/image005.jpg"> 
 
 * Barometr ___BMP180___ lub ___BMP280___, 
+
 <img src="/README.md.fld/image006.jpg"><img src="/README.md.fld/image007.jpg"> 
 
 * Płytka stykowa, 

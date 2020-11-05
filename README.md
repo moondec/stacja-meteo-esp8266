@@ -9,11 +9,11 @@ https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/
 
 1. Płytka oparta na ESP8266, np. ___NodeMCU___, ___WemosD1 mini___,
 
-![NodeMCU](/README.md.fld/image001.png) ![WeMos D1 Mini](README.md.fld/image002.jpg)
+<img src="/README.md.fld/image001.png" width="600">
 
 1. Termohigrometr ___DHT11___ lub ___DHT22___,
 
-![DHT](/README.md.fld/image003.jpg)
+<img src="/README.md.fld/image003.png" width="600">
 
 1. Termometr Dallas ___DS18B20___,
 

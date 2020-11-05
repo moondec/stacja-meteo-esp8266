@@ -8,28 +8,22 @@ https://randomnerdtutorials.com/esp8266-bme280-arduino-ide/
 ## Potrzebne materiały
 
 1. Płytka oparta na ESP8266, np. ___NodeMCU___, ___WemosD1 mini___,
-
-<img src="/README.md.fld/image001.png" width="600">
+<img src="/README.md.fld/image001.png" width="600"> 
 
 1. Termohigrometr ___DHT11___ lub ___DHT22___,
-
-<img src="/README.md.fld/image003.png" width="600">
+<img src="/README.md.fld/image003.jpg" width="600"> 
 
 1. Termometr Dallas ___DS18B20___,
-
-![DS18b20](/README.md.fld/image004.jpg) ![DS18b20](/README.md.fld/image005.jpg)
+![DS18b20](/README.md.fld/image004.jpg)![DS18b20](/README.md.fld/image005.jpg) 
 
 1. Barometr ___BMP180___ lub ___BMP280___,
+![BME180](/README.md.fld/image006.jpg)![BME280](/README.md.fld/image007.jpg) 
 
-![BME180](/README.md.fld/image006.jpg) ![BME280](/README.md.fld/image007.jpg)
+1. Płytka stykowa,![Plytka](/README.md.fld/image008.jpg) 
 
-1. Płytka stykowa,
-![Plytka](/README.md.fld/image008.jpg)
+1. Kabelki,![Kabelki](/README.md.fld/image010.jpg) 
 
-1. Kabelki,
-![Kabelki](/README.md.fld/image010.jpg)
-
-1. Komputer i kabel USB z wtyczką mikro-B (stare do ładowania smartfona)
+1. Komputer i kabel USB z wtyczką mikro-B (stare do ładowania smartfona) 
 
 ## Schemat połączeń
 
@@ -87,21 +81,19 @@ Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz 
 
 # Wgrywanie szkicu do ESP8266
 
-1. Gotowy szkic należy pobrać z [githuba] **stacjaMeteo_bmp180.ino** lub **stacjaMeteo_bmp280.ino**
+1. Gotowy szkic należy pobrać z [githuba] **stacjaMeteo_bmp180.ino** lub **stacjaMeteo_bmp280.ino** 
 
 1. Pobrany plik wgrywamy do katalogu **Dokumenty &gt; Arduino &gt; stacjaMeteo_bmp180** lub **Dokumenty &gt; Arduino &gt; stacjaMeteo_bmp280**
-
 Otwieramy wybrany plik w Arduino IDE: ![openfile](/README.md.fld/image016.png) 
 
-1. klikamy ![openfile2](/README.md.fld/image015.png)
+1. klikamy ![openfile2](/README.md.fld/image015.png) 
 
 1. Zmieniamy ustawienia sieci Wi-Fi na własne
-
 ![openfile](/README.md.fld/image017.png) 
 
-1. Sprawdzamy czy nie ma błędów w składni: ![openfile](/README.md.fld/image018.png)
+1. Sprawdzamy czy nie ma błędów w składni: ![openfile](/README.md.fld/image018.png) 
 
-1. Jeśli wszystko poszło dobrze można wgrać program: ![openfile](/README.md.fld/image019.png)
+1. Jeśli wszystko poszło dobrze można wgrać program: ![openfile](/README.md.fld/image019.png) 
 
 > Jeśli pojawiły się błędy kompilacji (z kroku 5), to najprawdopodobniej nie wszystkie wymagane biblioteki zostały zainstalowane. Należy się upewnić czy jakaś inna bibliotekanie powoduje konfliktów. Jeśli samodzielnie edytowałeś szkic to może pojawił się błąd składni. Najczęściej zapominamy o ___„;”___ na końcu linii bądź polecenia.
 

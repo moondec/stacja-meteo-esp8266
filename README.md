@@ -113,6 +113,7 @@ Przed podłączeniem płytki do komputera wybieramy *__Narzędzia > Port__*. W t
 Teraz podpinamy płytkę i ponownie wybieramy *__Narzędzia > Port__*
 ![openfile](/README.md.fld/image023.png) 
 
+> UWAGA: W systemie Windows porty te będą widoczne inaczej jako **COM2, COM3** itd.
 ### Teraz możemy przystąpić do wgrywania szkicu, czyli piku _.ino_ do płytki 
 
 1. Gotowy szkic należy pobrać z ___githuba___ **stacjaMeteo_bmp180.ino** lub **stacjaMeteo_bmp280.ino** 

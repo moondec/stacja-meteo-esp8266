@@ -111,7 +111,7 @@ Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz 
 Przed podłączeniem płytki do komputera wybieramy *__Narzędzia > Port__*. W ten sposób możemy wykryć, na którym porcie pojawi się nasza płytka. 
 ![openfile](/README.md.fld/image022.png) 
 Teraz podpinamy płytkę i ponownie wybieramy *__Narzędzia > Port__*
-![openfile](/README.md.fld/image022.png) 
+![openfile](/README.md.fld/image023.png) 
 
 ### Teraz możemy przystąpić do wgrywania szkicu, czyli piku _.ino_ do płytki 
 

@@ -131,7 +131,7 @@ const char index_html[] PROGMEM = R"rawliteral(
     <span id="dstemp">%DSTEMP%</span>
     <sup class="units">&deg;C</sup>
   </p>
-  <h3>BMP180</h3>
+  <h3>BMP280</h3>
   <p>
     <i class="fas fa-thermometer-three-quarters" style="color:#ff8d18;"></i> 
     <span class="dht-labels">Temperatura</span> 
@@ -152,7 +152,7 @@ const char index_html[] PROGMEM = R"rawliteral(
   </p>
   <p>
     <i class="fas fa-tint" style="color:#b0e0e6;"></i> 
-    <span class="dht-labels">Wilgotno&#347;&#263; npm</span> 
+    <span class="dht-labels">Wilgotno&#347;&#263;</span> 
     <span id="alti">%HUMBMP%</span>
     <sup class="units">&#37;</sup>
   </p>

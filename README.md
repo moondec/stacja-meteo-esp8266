@@ -104,6 +104,17 @@ Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz 
 <a name="Wgrywanie"></a>
 ## Wgrywanie szkicu do ESP8266
 
+### Przed wgraniem szkicu do mikrokontrolera (NodeMCU, WemosD1, i in.) należy ustawić w Arduino IDE *dwie ważne rzeczy*:
+1. Model płytki z mikrokontrolerem
+![openfile](/README.md.fld/image024.png) 
+1. Port szeregowy do komunikacji ___komputer <-> płytka___
+Przed podłączeniem płytki do komputera wybieramy *__Narzędzia > Port__*. W ten sposób możemy wykryć, na którym porcie pojawi się nasza płytka. 
+![openfile](/README.md.fld/image022.png) 
+Teraz podpinamy płytkę i ponownie wybieramy *__Narzędzia > Port__*
+![openfile](/README.md.fld/image022.png) 
+
+### Teraz możemy przystąpić do wgrywania szkicu, czyli piku _.ino_ do płytki 
+
 1. Gotowy szkic należy pobrać z ___githuba___ **stacjaMeteo_bmp180.ino** lub **stacjaMeteo_bmp280.ino** 
 
 1. Pobrany plik wgrywamy do katalogu **Dokumenty &gt; Arduino &gt; stacjaMeteo_bmp180** lub **Dokumenty &gt; Arduino &gt; stacjaMeteo_bmp280**
@@ -112,15 +123,13 @@ Otwieramy wybrany plik w Arduino IDE: ![openfile](/README.md.fld/image016.png)
 1. klikamy ![openfile2](/README.md.fld/image015.png) 
 
 1. Zmieniamy ustawienia sieci Wi-Fi na własne
-![openfile](/README.md.fld/image017.png) 
-
+![openfile](/README.md.fld/image017.png)
 ```C++
 // Zastąp danymi własnej sieci wi-fi
 const char* ssid = "NAZWA_SIECI_WIFI";
 const char* password = "HASŁO_SIECI_WIFI";
-```
-
-1. Sprawdzamy czy nie ma błędów w składni: ![openfile](/README.md.fld/image018.png) 
+``` 
+5. Sprawdzamy czy nie ma błędów w składni: ![openfile](/README.md.fld/image018.png) 
 
 1. Jeśli wszystko poszło dobrze można wgrać program: ![openfile](/README.md.fld/image019.png) 
 

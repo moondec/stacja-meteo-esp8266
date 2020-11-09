@@ -109,7 +109,7 @@ Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz 
 ## Wgrywanie szkicu do ESP8266
 
 ### Sterowniki do konwerterów _USB <-> serial (port szeregowy)_
-Układ ESP8266 (inne mikrokontrolery podobnie np. Arduino) Posiadają jedynie port szeregowy (RS232). Wgrywanie oprogramowania wymaga przykładowo takiego [specjalnego programatora](https://botland.com.pl/pl/programatory/4481-programatordebugger-stm8stm32-zgodny-z-st-linkv2-mini-waveshare-10053.html?search_query=programator&results=30). Płytki takie jak _NodeMCU_, czy _WemosD1 mini_ posiadają wbudowany konwerter portu szeregowego. Przważnie jest to układ CH340. 
+Układ ESP8266 (inne mikrokontrolery podobnie) Posiadają jedynie port szeregowy (RS232). Wgrywanie oprogramowania wymaga przykładowo takiego [specjalnego programatora](https://botland.com.pl/pl/programatory/4481-programatordebugger-stm8stm32-zgodny-z-st-linkv2-mini-waveshare-10053.html?search_query=programator&results=30). Płytki takie jak _NodeMCU_, czy _WemosD1 mini_ posiadają wbudowany konwerter portu szeregowego. Przważnie jest to układ CH340. 
 
 ![openfile](/README.md.fld/image026.png) 
 

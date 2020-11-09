@@ -109,9 +109,13 @@ Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz 
 ## Wgrywanie szkicu do ESP8266
 
 ### Sterowniki do konwerterów _USB <-> serial (port szeregowy)_
-> Układ ESP8266 (inne mikrokontrolery podobnie np. Arduino) Posiadają jedynie port szeregowy (RS232). Wgrywanie oprogramowania wymaga przykładowo takiego [specjalnego programatora](https://botland.com.pl/pl/programatory/4481-programatordebugger-stm8stm32-zgodny-z-st-linkv2-mini-waveshare-10053.html?search_query=programator&results=30). Płytki takie jak _NodeMCU_, czy _WemosD1 mini_ posiadają wbudowany konwerter portu szeregowego. Przważnie jest to układ CH340. ![openfile](/README.md.fld/image026.png) 
-Przed podłączeniem płytki do komputera należy zainstalować sterowniki do tego układu. [Sterowniki i instrukcje jak je zainstalować można znaleźć tutaj](https://sparks.gogo.co.nz/ch340.html)
-Uwaga *Tylko MacOS* po wgraniu sterownika należy go włączyć w **Preferencje systemowe > Ochrona i prywatność**. [Opis zamieszczono tutaj](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver.git)
+Układ ESP8266 (inne mikrokontrolery podobnie np. Arduino) Posiadają jedynie port szeregowy (RS232). Wgrywanie oprogramowania wymaga przykładowo takiego [specjalnego programatora](https://botland.com.pl/pl/programatory/4481-programatordebugger-stm8stm32-zgodny-z-st-linkv2-mini-waveshare-10053.html?search_query=programator&results=30). Płytki takie jak _NodeMCU_, czy _WemosD1 mini_ posiadają wbudowany konwerter portu szeregowego. Przważnie jest to układ CH340. 
+
+![openfile](/README.md.fld/image026.png) 
+
+Przed podłączeniem płytki do komputera należy zainstalować sterowniki do tego układu. [Sterowniki i instrukcje jak je zainstalować można znaleźć tutaj](https://sparks.gogo.co.nz/ch340.html) 
+
+>Uwaga *Tylko MacOS* po wgraniu sterownika należy go włączyć w **Preferencje systemowe > Ochrona i prywatność**. [Opis zamieszczono tutaj](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver.git)
 
 ### Przed wgraniem szkicu do mikrokontrolera (NodeMCU, WemosD1, i in.) należy ustawić w Arduino IDE *dwie ważne rzeczy*:
 1. Model płytki z mikrokontrolerem
@@ -143,6 +147,6 @@ const char* password = "HASŁO_SIECI_WIFI";
 
 1. Jeśli wszystko poszło dobrze można wgrać program: ![openfile](/README.md.fld/image019.png) 
 
-> Jeśli pojawiły się błędy kompilacji (z kroku 5), to najprawdopodobniej nie wszystkie wymagane biblioteki zostały zainstalowane. Należy się upewnić czy jakaś inna bibliotekanie powoduje konfliktów. Jeśli samodzielnie edytowałeś szkic to może pojawił się błąd składni. Najczęściej zapominamy o *___„;”___* na końcu linii bądź polecenia.
+> Jeśli pojawiły się błędy kompilacji (z kroku 5), to najprawdopodobniej nie wszystkie wymagane biblioteki zostały zainstalowane. Należy się upewnić czy jakaś inna bibliotekanie powoduje konfliktów. Jeśli samodzielnie edytowałeś szkic to może pojawił się błąd składni. Najczęściej zapominamy o *__„;”__* na końcu linii bądź polecenia.
 
 <font color:red >POWODZENIA!!!</font>

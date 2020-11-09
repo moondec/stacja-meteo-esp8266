@@ -147,6 +147,7 @@ const char* password = "HASŁO_SIECI_WIFI";
 
 1. Jeśli wszystko poszło dobrze można wgrać program: ![openfile](/README.md.fld/image019.png) 
 
-> Jeśli pojawiły się błędy kompilacji (z kroku 5), to najprawdopodobniej nie wszystkie wymagane biblioteki zostały zainstalowane. Należy się upewnić czy jakaś inna bibliotekanie powoduje konfliktów. Jeśli samodzielnie edytowałeś szkic to może pojawił się błąd składni. Najczęściej zapominamy o *__„;”__* na końcu linii bądź polecenia.
+> Jeśli pojawiły się błędy kompilacji (z kroku 5), to najprawdopodobniej nie wszystkie wymagane biblioteki zostały zainstalowane. 
+Należy się upewnić czy jakaś inna bibliotekanie nie powoduje konfliktów. Jeśli samodzielnie edytowałeś szkic to może pojawił się błąd składni. Sprawdź opis błędy (na czerwono) w czarnym okienku na dole Arduino IDE. Najczęściej zapominamy o *__„;”__* na końcu linii bądź polecenia.
 
 <font color:red >POWODZENIA!!!</font>

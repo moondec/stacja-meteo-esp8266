@@ -109,11 +109,20 @@ Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz 
 ## Wgrywanie szkicu do ESP8266
 
 ### Sterowniki do konwerterów _USB <-> serial (port szeregowy)_
-Układ ESP8266 (inne mikrokontrolery podobnie) Posiadają jedynie port szeregowy (RS232). Wgrywanie oprogramowania wymaga przykładowo takiego [specjalnego programatora](https://botland.com.pl/pl/programatory/4481-programatordebugger-stm8stm32-zgodny-z-st-linkv2-mini-waveshare-10053.html?search_query=programator&results=30). Płytki takie jak _NodeMCU_, czy _WemosD1 mini_ posiadają wbudowany konwerter portu szeregowego. Przważnie jest to układ CH340. 
+Układ ESP8266 (inne mikrokontrolery podobnie) Posiadają jedynie port szeregowy (RS232). Wgrywanie oprogramowania wymaga przykładowo takiego [specjalnego programatora](https://botland.com.pl/pl/programatory/4481-programatordebugger-stm8stm32-zgodny-z-st-linkv2-mini-waveshare-10053.html?search_query=programator&results=30). Płytki takie jak _NodeMCU_, czy _WemosD1 mini_ posiadają wbudowany konwerter portu szeregowego. Przważnie jest to układ CP210x (NodeMCU v1, v2, WemosD1 mini pro)  
 
-![openfile](/README.md.fld/image026.png) 
+![CP2102](/README.md.fld/image027.png) 
+  
 
-Przed podłączeniem płytki do komputera należy zainstalować sterowniki do tego układu. [Sterowniki i instrukcje jak je zainstalować można znaleźć tutaj](https://sparks.gogo.co.nz/ch340.html) 
+i CH340 (WemosD1 mini, NodeMCU v3).  
+  
+  
+![CH340](/README.md.fld/image026.png)  
+
+Przed podłączeniem płytki do komputera należy zainstalować sterowniki do tego układu.  
+[Sterowniki do _CP210x_ i instrukcje jak je zainstalować można znaleźć tutaj](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)  
+
+[Sterowniki do _CH340_ i instrukcje jak je zainstalować można znaleźć tutaj](https://sparks.gogo.co.nz/ch340.html) 
 
 >Uwaga *Tylko MacOS* po wgraniu sterownika należy go włączyć w **Preferencje systemowe > Ochrona i prywatność**. [Opis zamieszczono tutaj](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver.git)
 

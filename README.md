@@ -61,9 +61,13 @@ Lub po prostu dodajemy obsługę ESP8266 w Arduino IDE:
 Dla MacOS lub Linux **Arduino > Preferencje > Dodatkowe adresy URL do menadżera płytek** 
 
 Dla Windows **Plik > Preferencje > Dodatkowe adresy URL do menadżera płytek** 
-
 i wklejamy: 
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+Następnie wybieramy **Narządzia > Płytka > Menadżer płytek...**
+W otwartym oknie poszukujemy *__esp8266__* i klikamy **Instaluj**. Zajmie to chwilę. 
+
+![install esp8266 lib](/README.md.fld/image025.png)
 
 <a name="biblioteki"></a>
 ## Instalujemy potrzebne biblioteki:
@@ -103,6 +107,11 @@ Instalujemy podobnie jak poprzednie. Można też wybrać: **Szkic &gt; Dołącz 
 
 <a name="Wgrywanie"></a>
 ## Wgrywanie szkicu do ESP8266
+
+### Sterowniki do konwerterów _USB <-> serial (port szeregowy)_
+> Układ ESP8266 (inne mikrokontrolery podobnie np. Arduino) Posiadają jedynie port szeregowy (RS232). Wgrywanie oprogramowania wymaga przykładowo takiego [specjalnego programatora](https://botland.com.pl/pl/programatory/4481-programatordebugger-stm8stm32-zgodny-z-st-linkv2-mini-waveshare-10053.html?search_query=programator&results=30). Płytki takie jak _NodeMCU_, czy _WemosD1 mini_ posiadają wbudowany konwerter portu szeregowego. Przważnie jest to układ CH340. ![openfile](/README.md.fld/image026.png) 
+Przed podłączeniem płytki do komputera należy zainstalować sterowniki do tego układu. [Sterowniki i instrukcje jak je zainstalować można znaleźć tutaj](https://sparks.gogo.co.nz/ch340.html)
+Uwaga *Tylko MacOS* po wgraniu sterownika należy go włączyć w **Preferencje systemowe > Ochrona i prywatność**. [Opis zamieszczono tutaj](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver.git)
 
 ### Przed wgraniem szkicu do mikrokontrolera (NodeMCU, WemosD1, i in.) należy ustawić w Arduino IDE *dwie ważne rzeczy*:
 1. Model płytki z mikrokontrolerem
